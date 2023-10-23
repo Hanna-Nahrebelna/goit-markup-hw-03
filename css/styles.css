@@ -1,11 +1,25 @@
 /* ========COMMON STYLES======== */
-.list {
-    list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.link {
-    text-decoration: none;
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+
+img {
+    display: block;
+}
+
 
 button {
     cursor: pointer;    
@@ -16,14 +30,65 @@ button:focus {
     color: #4D5AE5;
 }
 
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+
+.container-header {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sections {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* ========/COMMON STYLES======== */
 
 /* ========HEADR STYLES======== */
+.page-header {
+    padding-top: 29px;
+    padding-bottom: 30px;
+}
+
+.page-navigation {
+    display: flex;    
+}
+
+.menu  {
+    display: flex;
+    column-gap: 40px;
+}
+
+.list {
+    display: flex;
+    column-gap: 41px;  
+}
+
 .logotype {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -31,7 +96,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--NAVY-BLUE, #4d5ae5);
+    color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .span-headr {
@@ -45,7 +111,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE, #2E2F42);    
 }
 
 .menu-link:hover,
@@ -76,6 +142,18 @@ body {
 /* ========BODE STYLE=========== */
 .hero {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+.main-title {
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;   
 }
 
 .title-benefits {
@@ -90,28 +168,36 @@ body {
 }
 
 .main-title {
-    text-align: center;     
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--WHITE, #FFFFFF);    
+    color: var(--WHITE, #FFFFFF);
+    padding-top: 188px;
 }
 
 .button-mail {
+    display: flex;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--WHITE, #FFFFFF);
+    color: #FFFFFF;
     background-color: #4D5AE5;
 }
+
 
 .button-mail:hover,
 .button-mail:focus {
     background-color: #404BBF;
 }
+
 
 .benefits {
     font-family: 'Roboto', sans-serif;
@@ -119,7 +205,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 }
 
 .benefits-text { 
@@ -132,6 +218,10 @@ body {
 
 .our-team {
     background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .title-team {    
@@ -156,6 +246,11 @@ body {
 
 .team-background {
     background-color: #FFFFFF;
+}
+
+.title-team {    
+    padding-bottom:  72px;
+    padding-top: 120px;    
 }
 
 .team-text {    
@@ -203,6 +298,11 @@ body {
 
 .mail-footer {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .logotype-footer {

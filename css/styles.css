@@ -86,12 +86,14 @@ body {
 }
 
 .menu  {
-    display: flex;    
+    display: flex;
+    gap: 40px;
 }
 
 .menu-item {
     column-gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .list {
@@ -135,6 +137,10 @@ body {
 
 .contacts {
     font-style: normal;
+}
+
+.list-contacts {
+    gap: 40px;
 }
 
 .contacts-link {
@@ -265,8 +271,8 @@ body {
     color: #2E2F42;        
 }
 
-.colums-team {
-    gap: 24px;    
+.colums-team {    
+    gap: 24px;     
 }
 
 .team-name {
@@ -274,9 +280,9 @@ body {
 }
 
 .team-personal {
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;    
 }
 
 .team {    

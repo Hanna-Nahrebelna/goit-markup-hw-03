@@ -90,18 +90,18 @@ body {
     gap: 40px;
 }
 
+.list {
+    display: flex;
+    column-gap: 40px;    
+}
+
 .menu-item {
     column-gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.list {
-    display: flex;
-    column-gap: 40px;    
-}
-
-.links-item {
+.menu-link {
     padding: 24px 0;
 }
 
@@ -211,7 +211,11 @@ body {
     padding: 120px 0;
 }
 
-.list-benefits {
+.list-benefits {    
+    gap: 24px;
+}
+
+.our-list {
     width: calc((100% - 72px) / 4);
 }
 
@@ -251,7 +255,7 @@ body {
 
 .our-team {
     padding-top: 120px;
-    padding-bottom: 120px;    
+    padding-bottom: 120px; 
     width: 1440px;
     height: 732px;
     margin-left: auto;
